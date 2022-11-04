@@ -21,8 +21,6 @@ def fetch_ad_dataset(API_KEY):
 
 dataset = fetch_ad_dataset(API_KEY)
 
-print(dataset.head(3))
-
 app = dash.Dash(__name__)
 server = app.server
 app.title = "Windsor.ai"
